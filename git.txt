@@ -1,0 +1,6 @@
+git clone https://github.com/your-username/your-repo.git
+cd your-repo
+echo "GitHub Activity Update" >> activity.txt
+git add activity.txt
+git commit -m "Updated activity file"
+git push origin main
