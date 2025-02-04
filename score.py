@@ -19,7 +19,7 @@ def get_antutu_score(processor_name):
             score = score_element.text.strip()
             return f"{processor_name} AnTuTu Score: {score}"
         else:
-            return f"AnTuTu score for {processor_name} not found."
+            return f"AnTuTu score for {processor_name_X} not found."
 
     except requests.exceptions.RequestException as e:
         return f"Error fetching data: {e}"
